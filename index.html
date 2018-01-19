@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>Popularne imiona w latach 2000-2016</title>
+    <meta name="description" content="Przedstawienie efektu działania programu do wizualizacji danych. Dane zawarte są w pliku csv" />
+    <meta name="keywords" content="popularne, imiona, 2000, 2016" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <h1><a href="#" onclick="show_info('info') ; hide_info('svg')">Popularne imiona w latach 2000-2016</a></h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li class="left">
+            <div class="dropdown">
+                <button class="dropbtn">15 Popularnych imion męskich</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2000.svg' ; hide_info('info') ; show_info('svg')">2000</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2001.svg' ; hide_info('info') ; show_info('svg')">2001</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2002.svg' ; hide_info('info') ; show_info('svg')">2002</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2003.svg' ; hide_info('info') ; show_info('svg')">2003</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2004.svg' ; hide_info('info') ; show_info('svg')">2004</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2005.svg' ; hide_info('info') ; show_info('svg')">2005</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2006.svg' ; hide_info('info') ; show_info('svg')">2006</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2007.svg' ; hide_info('info') ; show_info('svg')">2007</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2008.svg' ; hide_info('info') ; show_info('svg')">2008</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2009.svg' ; hide_info('info') ; show_info('svg')">2009</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2010.svg' ; hide_info('info') ; show_info('svg')">2010</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2011.svg' ; hide_info('info') ; show_info('svg')">2011</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2012.svg' ; hide_info('info') ; show_info('svg')">2012</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2013.svg' ; hide_info('info') ; show_info('svg')">2013</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2014.svg' ; hide_info('info') ; show_info('svg')">2014</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2015.svg' ; hide_info('info') ; show_info('svg')">2015</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_most/most_men_15_2016.svg' ; hide_info('info') ; show_info('svg')">2016</a>
+                </div>
+            </div>
+            </li>
+            <li class="left">
+            <div class="dropdown">
+                <button class="dropbtn">15 Popularnych imion damskich</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2000.svg' ; hide_info('info') ; show_info('svg')">2000</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2001.svg' ; hide_info('info') ; show_info('svg')">2001</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2002.svg' ; hide_info('info') ; show_info('svg')">2002</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2003.svg' ; hide_info('info') ; show_info('svg')">2003</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2004.svg' ; hide_info('info') ; show_info('svg')">2004</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2005.svg' ; hide_info('info') ; show_info('svg')">2005</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2006.svg' ; hide_info('info') ; show_info('svg')">2006</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2007.svg' ; hide_info('info') ; show_info('svg')">2007</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2008.svg' ; hide_info('info') ; show_info('svg')">2008</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2009.svg' ; hide_info('info') ; show_info('svg')">2009</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2010.svg' ; hide_info('info') ; show_info('svg')">2010</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2011.svg' ; hide_info('info') ; show_info('svg')">2011</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2012.svg' ; hide_info('info') ; show_info('svg')">2012</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2013.svg' ; hide_info('info') ; show_info('svg')">2013</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2014.svg' ; hide_info('info') ; show_info('svg')">2014</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2015.svg' ; hide_info('info') ; show_info('svg')">2015</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_most/most_women_15_2016.svg' ; hide_info('info') ; show_info('svg')">2016</a>
+                </div>
+            </div>
+            </li>
+            <li class="left">
+            <div class="dropdown">
+                <button class="dropbtn">50 Najmniej popularnych imion męskich</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2000.svg' ; hide_info('info') ; show_info('svg')">2000</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2001.svg' ; hide_info('info') ; show_info('svg')">2001</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2002.svg' ; hide_info('info') ; show_info('svg')">2002</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2003.svg' ; hide_info('info') ; show_info('svg')">2003</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2004.svg' ; hide_info('info') ; show_info('svg')">2004</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2005.svg' ; hide_info('info') ; show_info('svg')">2005</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2006.svg' ; hide_info('info') ; show_info('svg')">2006</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2007.svg' ; hide_info('info') ; show_info('svg')">2007</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2008.svg' ; hide_info('info') ; show_info('svg')">2008</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2009.svg' ; hide_info('info') ; show_info('svg')">2009</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2010.svg' ; hide_info('info') ; show_info('svg')">2010</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2011.svg' ; hide_info('info') ; show_info('svg')">2011</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2012.svg' ; hide_info('info') ; show_info('svg')">2012</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2013.svg' ; hide_info('info') ; show_info('svg')">2013</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2014.svg' ; hide_info('info') ; show_info('svg')">2014</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2015.svg' ; hide_info('info') ; show_info('svg')">2015</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_men_less/less_men_50_2016.svg' ; hide_info('info') ; show_info('svg')">2016</a>
+                </div>
+            </div>
+            </li>
+            <li class="left">
+            <div class="dropdown">
+                <button class="dropbtn">50 Najmniej popularnych imion damskich</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2000.svg' ; hide_info('info') ; show_info('svg')">2000</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2001.svg' ; hide_info('info') ; show_info('svg')">2001</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2002.svg' ; hide_info('info') ; show_info('svg')">2002</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2003.svg' ; hide_info('info') ; show_info('svg')">2003</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2004.svg' ; hide_info('info') ; show_info('svg')">2004</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2005.svg' ; hide_info('info') ; show_info('svg')">2005</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2006.svg' ; hide_info('info') ; show_info('svg')">2006</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2007.svg' ; hide_info('info') ; show_info('svg')">2007</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2008.svg' ; hide_info('info') ; show_info('svg')">2008</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2009.svg' ; hide_info('info') ; show_info('svg')">2009</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2010.svg' ; hide_info('info') ; show_info('svg')">2010</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2011.svg' ; hide_info('info') ; show_info('svg')">2011</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2012.svg' ; hide_info('info') ; show_info('svg')">2012</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2013.svg' ; hide_info('info') ; show_info('svg')">2013</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2014.svg' ; hide_info('info') ; show_info('svg')">2014</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2015.svg' ; hide_info('info') ; show_info('svg')">2015</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/svg_women_less/less_women_50_2016.svg' ; hide_info('info') ; show_info('svg')">2016</a>
+                </div>
+            </div>
+            </li>
+            <li class="left">
+            <div class="dropdown">
+                <button class="dropbtn">Porównanie  niektórych imion</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="document.getElementById('svg').src='svg/mix/mix_M.svg' ; hide_info('info') ; show_info('svg')">męskie</a>
+                    <a href="#" onclick="document.getElementById('svg').src='svg/mix/mix_K.svg' ; hide_info('info') ; show_info('svg')">damskie</a>
+                </div>
+            </div>
+            </li>
+            <li class="right"><a href="/popular_python.rar" class="active" download="popular_python.rar">Pobierz</a></li>
+        </ul> 
+    </nav>
+    
+    <section>
+        <div id="info">
+            <h2>Wizualizacja - python</h2>
+            <p>Przedstawione wykresy pokazują zaledwie mały ułamek możliwości biblioteki pygal.</p>
+            <h3>Program możma pobrać klikając w przycisk <span>Pobierz</span> bądź bezpośredio z mojego githuba.</h3>
+            <a href="https://github.com/piotr94lisiak">GITHUB</a>
+        </div>
+        <embed id="svg" type="image/svg+xml" src="" />
+    </section>
+    
+    <footer>
+        <p class="left">Autor: Piotr Lisiak</p>
+        <p class="right">Kontakt: <a href="mailto:piotr94lisiak@gmail.com">piotr94lisiak@gmail.com</a></p>
+    </footer>
+    
+<script>
+    function show_info(param){
+        document.getElementById(param).style.visibility= 'visible' ;
+    }
+
+    function hide_info(param){
+        document.getElementById(param).style.visibility= 'hidden' ;
+    }
+</script>
+</body>
+    
+</html>
